@@ -26,8 +26,8 @@ h2 {
 	line-height: 90px;	
 	color: #e7e7e7;
 	margin: 0;
-	padding: 0;
-	line-height: 200px;
+	padding: 57px 0;
+	/*line-height: 200px;*/
 }
 
 h3 {
@@ -63,8 +63,6 @@ header{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	height: 100vh;
-	min-height: 600px;
 	width: auto;
 	background: url(../img/football_1920.jpg) no-repeat center;
 	background-size: cover;
@@ -93,7 +91,8 @@ header{
 	position: relative;
 	z-index: 1;
 	width: 80%;	
-	padding-top: 90px;
+	padding-top: 14.5%;
+	padding-bottom: 10%;
 	letter-spacing: 3px;
 }
 
@@ -174,7 +173,6 @@ header{
 
 .wrapper_block1 {
 	width: auto;
-/*	height: 1761px;*/
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -183,7 +181,6 @@ header{
 }
 
 .white1 {
-/*	height: 23.5%;*/
 	width: auto;
 	background-color: #fff;
 	display: flex;
@@ -196,17 +193,11 @@ header{
 	justify-content: flex-start;
 	width: 47.5%;
 	margin-bottom: 70px;
-
-	/*height: 100%;*/
 }
 
 .gray .white_position {
 	margin-bottom: 57px;
 }
-
-/*.violet .white_position .white_content {
-	margin-top: 23px;
-}*/
 
 .violet .white_position {
 	margin: 24px 0 54px;
@@ -218,7 +209,6 @@ header{
 	align-items: flex-start;
 	width: 76%;
 	margin-left: 10px;
-	/*height: 100%;*/
 }
 
 .white_big_tittle {
@@ -268,14 +258,13 @@ header{
 }
 
 .underline_white {
-  border-radius: 2px;
-  background-color: #fff;
-  width: 19px;
-  height: 5px;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 19px;
+    height: 5px;
 }
 
 .white2 {
-/*	height: 25.5%;*/
 	width: auto;
 	background-color: #fff;
 	display: flex;
@@ -288,7 +277,6 @@ header{
 	justify-content: flex-end;
 	width: 52.5%;
 	margin-bottom: 70px;
-	/*height: 100%;*/
 }
 
 .white2_content {
@@ -297,7 +285,6 @@ header{
 	align-items: flex-start;
 	width: 76%;
 	margin-right: 50px;
-	/*height: 100%;*/
 }
 
 .gray2 {
@@ -315,7 +302,6 @@ header{
 
 .dark_purple {
 	background-color: #0a0e34;
-	height: 11.1%;
 	width: auto;
 	flex-direction: column;
 	align-items: flex-end;
@@ -330,7 +316,6 @@ header{
 }
 
 .number3 {
-	/*font-size: 90%;*/
 	padding-right: 12px; 
 	font-weight: 700;
 	color: #9173e6;
@@ -377,7 +362,6 @@ header{
 
 
 .wrapper_block2 {
-	/*height: 2190px;*/
 	width: auto;
 	background-color: #fff;
 	color: #000;
@@ -385,47 +369,57 @@ header{
 }
 
 .active {
-/*	height: 33.3%;*/
 	width: auto;
 	overflow: hidden;
 	display: flex;
 	position: relative;
 }
 
-.b2txt {
-	padding-top: 34px;
-}
+
 
 .active_img_1 {
 		width: 50%; 
-/*		background-position: top right; 
-		background-image: url("../img/be-active_960.jpg");
-		background-repeat: no-repeat;*/
-}
-
-.active_img {
-	max-width: 100%;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
 }
 
 .active_text {
 	width: 50%;
-	position: relative;
 }
 
-.active_text_content {
-	width: 60%;
-	position: relative;
-	top: 27%;
-	left: 13%;
+
+.active_text_content h2 {
+	padding: 25% 0 10% 13%;
 }
+
+.b2txt {
+	padding: 0 0 21% 14%;
+	width: 73%;
+	font-size: 24px;
+}
+
+.contact_text_content h2 {
+	padding: 24% 0 6% 19%;
+}
+
+.contact_text_content .b2txt {
+	padding: 0 0 23% 20%;
+	width: 85%;
+}
+
+.work_text_content h2 {
+	padding: 18% 0 9% 14%;
+}
+
 
 .box_number {
 	position: absolute;
-	width: 168px;
-	height: 155px;
+	width: 9%;
+	height: 21%;
 	background-color: #5e42b0;
-	top: 29%;
-	left: calc(50% - 168px/2);
+	top: 28%;
+	left: calc(50% - 8%/2);
 	color: #fff;
 }
 
@@ -443,33 +437,17 @@ header{
 }
 
 .contact {
-	/*height: 33.4%;*/
 	width: auto;
 	overflow: hidden;
 	display: flex;
 	position: relative;
-}
-
-.contact_text_content {
-	width: 67%;
-	position: relative;
-	top: 26%;
-	left: 20%;
 }
 
 .work {
-	/*height: 33.3%;*/
 	width: auto;
 	overflow: hidden;
 	display: flex;
 	position: relative;
-}
-
-.work_text_content {
-	width: 62%;
-	position: relative;
-	top: 26%;
-	left: 13%;
 }
 
 
@@ -483,7 +461,6 @@ footer {
 	background-size: cover;
 	position: relative;
 	width: auto;
-	/*height: 100vh;*/
 	min-height: 600px;
 	display: flex;
 	flex-direction: column;
@@ -541,17 +518,36 @@ footer .app-btns {
 @media screen and (max-width: 768px) {
 	
 	h1 {
-		font-size: 4rem;
+		font-size: 64px;
 	}
 
 	h2 {
 		line-height: 100px;
 	}
 
-	.line2 {
-	text-align: left;
-	padding-left: 16%;
+	h3 {
+		font-size: 32px;
+		line-height: 78px;
 	}
+
+	header {
+		height: auto;
+	}
+
+	.banner-tittle {
+		padding-top: 153px;
+	}
+
+	.line2 {
+		text-align: left;
+		padding-left: 16%;
+		line-height: 73px;
+	}
+	
+    .app-btns {
+    	padding-top: 26%;
+    	padding-bottom: 9%;
+    }
 
 	.athlets {
 		padding-right: 54%;	
@@ -562,23 +558,70 @@ footer .app-btns {
 		padding-left: 30%;	
 	}
 
+	.athlet_img {
+    	right: 39%;
+    	height: 48%;
+    	top: 5.5%;
+	}
+
 	.player_img {
 		height: 40%;
-		
+		left: 12%;		
+	}
+
+	.wrapper_block1 {
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.white_position {
+		width: 63.5%;
+		margin-bottom: 28px;
+	}
+
+	.white_content {
+		width: 82%;
+	}
+
+	.white_big_tittle h2 {
+		padding: 15px 0;
+	}
+
+	#mobile_padding {
+		margin: 0px;
 	}
 
 	.white2_position {
 		justify-content: flex-start;
-		width: 70%;
-		padding: 32px;
+		width: 60%;
+		padding-left: 32px;
+		margin-bottom: 0px;
 	}
 
 	.white2_content {
 		width: 100%;
+		margin-bottom: 5%;
 	}
 
-	.wrapper_block2 {
-		height: 2600px;
+	.gray .white_position {
+		margin-bottom: 40px;
+	}
+
+	.violet .white_position {
+    margin: 3px 0 6px;
+}
+	
+	.violet_text {
+		padding-bottom: 6%;
+	}
+
+	.dark_purple .white2_position {
+   		margin-bottom: 0px;
+	}
+
+	.dark_purple .white2_position .white2_content {
+    	margin-top: 5px;
+    	margin-bottom: 7px;
 	}
 
 	.active {
@@ -586,14 +629,20 @@ footer .app-btns {
 		height: auto;
 	}
 
-
-	.active_img {
+	.active_img_1 {
 		width: 100%;	
+	}
+
+	.act_img {
+		height: 50%;
+	}
+
+	.img_wdth {
+		max-width: 100%;
 	}
 
 	.active_text {
 		width: 100%;
-		padding: 50px 32px 100px;
 	}
 
 	.active_text_content {
@@ -601,10 +650,32 @@ footer .app-btns {
 		left: 0px;
 	}
 
+	.active_text_content h2 {
+    	padding: 8% 0 0 3%;
+	}
+
+	.b2txt {
+    	padding: 1% 0 13% 4%;
+    	width: 83%;
+	}
+
+	.contact_text_content h2 {
+    	padding: 5% 0 2% 4%;
+	}
+
+	.contact_text_content .b2txt {
+    	padding: 0 0 13% 4%;
+    	width: 85%;
+	}
+
+	.work_text_content h2 {
+    	padding: 7% 0 0% 4%;
+	}
+
 	.box_number {
 		width: 116px;
 		height: 116px;
-		top: 57%;
+		top: 55%;
 		left: 4.5%;
 	}
 
@@ -634,6 +705,7 @@ footer .app-btns {
 		flex-direction: column;
 		width: 90%;
 		align-items: center;
+		margin-top: 6%;
 	}
 
 	.footer_text h1 {
@@ -646,17 +718,55 @@ footer .app-btns {
 	}
 
 	.logo_icon {
-		margin: 80px;
+		margin: 80px 0 70px;
 	}
 
 	footer .app-btns {
 		padding-bottom: 0px;
-		padding-top: 26%;
+		padding-top: 34%;
+		margin: 0;
+	}
+
+	.logo2 {
+		margin-top: 4%;
 	}
 
 }
 
+@media screen and (max-width: 680px) {
 
+	h1 {
+		font-size: 45px;
+	}
+
+	h2 {
+		font-size: 45px;
+	}
+
+	.footer_text h1 {
+    	font-size: 45px;
+	}
+
+	.app-btns {
+		flex-direction: column;
+	}
+
+	.players {
+		padding-left: 46%;
+	}
+
+	.athlet_img {
+    	right: 46%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.box_number {
+		top: 46%;
+		width: 77px;
+		height: 77px;
+	}
+}
 
 /*--------------------MEDIA_320px--------------------*/
 
@@ -671,11 +781,12 @@ footer .app-btns {
 
 	h2 {
 		font-size: 50px;
-		line-height: 90px;
+		line-height: 30px;
 	}
 
 	h3 {
 		font-size: 23px;
+		line-height: 73%;
 	}
 
 	h4 {
@@ -683,17 +794,29 @@ footer .app-btns {
 	}
 
 	.logo {
-		margin-top: 33px;
+		margin-top: 11px;
 		width: 133px;
+	}
+
+	.banner-tittle {
+		font-size: 28px;
+		padding-top: 125px;
 	}
 	
 	.line1 {
 		margin-bottom: 20px; 
 	}
+
+	.line2 {
+		line-height: 32px;
+		letter-spacing: 1px;
+	}
 	
 	.app-btns {
 		flex-direction: column;
 		font-size: 8px;
+		padding-bottom: 26%;
+		padding-top: 13%;
 	}
 
 	.ios {
@@ -723,8 +846,11 @@ footer .app-btns {
 	}
 
 	.athlet_img {
-		padding-top: 100px;
-		margin-bottom: 100px;
+    	height: 950px;
+    	margin-top: 21%;
+    	top: 0%;
+    	right: 0%;
+    	width: auto;
 	}
 
 	.athlets {
@@ -738,16 +864,14 @@ footer .app-btns {
 		padding-top: 0px;
 	}
 
+	.player_img {
+    	height: 37%;
+    	left: 0%;
+    	top: 56%;
+	}
+
 	.wrapper_block1 {
 		font-size: 0.94rem;
-	}
-
-	.white1 {
-		height: 28%;
-	}
-
-	.white2 {
-		height: 28%;
 	}
 
 	.white_position {
@@ -756,21 +880,63 @@ footer .app-btns {
 
 	.white_content {
 		width: 100%;
-		padding: 20px;
+		padding: 10px;
+	}
+
+	.white_big_tittle {
+    	margin-top: 0px;
+	}
+
+	.white_text {
+		line-height: 19px;
+	}
+
+	.gray_text {
+		line-height: 18px;
+		width: 94%
+	}
+
+	.violet_text {
+    	padding-bottom: 12%;
+    	width: 89%;
+    	line-height: 20px;
+	}
+
+	.white_tittle {
+		margin-top: 34px;
+		margin-bottom: 18px;
+	}
+
+	.white_position {
+    	margin-bottom: 48px;
 	}
 
 	.white2_position {
 		width: 100%;
-		padding: 20px;
+		padding: 10px 0 0 20px;
+	}
+
+	.white2_content {
+		margin-bottom: 18%;
+	}
+
+	.gray2 .white2_position .white2_content {
+		padding-bottom: 0px;
+		margin-right: 25px; 
+	}
+
+	.dark_purple .white2_position .white2_content {
+    	margin-bottom: 18px;
 	}
 
 	
 	#mobile_padding {
-		padding-top: 220px;
+		padding-top: 106%;
+		padding-bottom: 7%;
 	}
 
 	#mobile_padding2 {
-		padding-top: 220px;
+		padding-top: 108%;
 	}
 
 	.active_text_content {
@@ -790,8 +956,8 @@ footer .app-btns {
 	.box_number {
 		width: 70px;
 		height: 70px;
-		top: 35%;
-		left: 8.5%;
+		top: 52%;
+		left: 7%;
 	}
 
 	.box_content .number {
@@ -808,8 +974,29 @@ footer .app-btns {
 		left: calc(50% - 17px/2);
 	}
 
-	.wrapper_block2 {
-    	height: 1630px;
+	.b2txt {
+		font-size: 15px;
+		line-height: 20px;
+		padding: 1% 0 24% 6%;
+		width: 67%;
+	}
+
+	.active_text_content h2 {
+    	padding: 7% 0 4% 5%;
+	}
+
+	.contact_text_content h2 {
+		padding: 7% 0 5% 4%;
+	}
+
+	.contact_text_content .b2txt {
+    	width: 83%;
+    	padding: 0 0 26% 4%;
+	}
+
+	.work_text_content .b2txt {
+		width: 80%;
+		padding: 5% 0 21% 6%;
 	}
 
 	.footer_text h1 {
@@ -817,7 +1004,7 @@ footer .app-btns {
 	}
 
 	.logo_icon {
-		margin: 65px;
+		margin: 80px auto 55px;
 		width: 72px;
 		height: 74px;
 		padding: 18px 15px;
@@ -831,6 +1018,7 @@ footer .app-btns {
 
 	.logo2 {
 		width: 133px;
+		margin-bottom: 10%;
 	}
 
 }
