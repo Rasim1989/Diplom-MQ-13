@@ -450,6 +450,20 @@ footer::after {
 	margin-top: 12%;
 }
 
+.footer_text h2 {
+	padding: 0;
+	color: #fff;
+}
+
+.ftxt {
+	text-transform: uppercase;
+	font-size: 30px; 
+	font-weight: 600;
+	color: #a496ca;
+	margin: 0;
+	padding: 0;	
+}
+
 .logo_icon {
 	width: 130px;	
 	height: 137px;	
@@ -677,12 +691,7 @@ footer .app-btns {
 		margin-top: 6%;
 	}
 
-	.footer_text h1 {
-		font-size: 80px;
-		text-align: center;
-	}
-
-	.footer_text {
+	.footer_text h2 {
 		text-align: center;
 	}
 
@@ -755,10 +764,6 @@ footer .app-btns {
 		font-size: 23px;
 		line-height: 73%;
 		padding-bottom: 8%;
-	}
-
-	h4 {
-		font-size: 14px;
 	}
 
 	.logo {
@@ -979,8 +984,12 @@ footer .app-btns {
     	margin-top: 6%;
 	}
 
-	.footer_text h1 {
+	.footer_text h2 {
 		font-size: 32px;
+	}
+
+	.ftxt {
+		font-size: 14px;
 	}
 
 	.logo_icon {
